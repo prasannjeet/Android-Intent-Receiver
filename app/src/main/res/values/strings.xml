@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EmailIntentReceiver</string>
+    <string name="to">To</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="send_button_message">BUTTON</string>
+</resources>

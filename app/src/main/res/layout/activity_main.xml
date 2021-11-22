@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:background="@drawable/side_nav_bar">
+
+    <TextView
+        android:id="@+id/email_text_box"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/to"
+        android:textColor="@color/black"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/subject_text_box"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/subject"
+        android:textColor="@color/black"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/message_text_box"
+        android:layout_width="367dp"
+        android:layout_height="249dp"
+        android:layout_margin="16dp"
+        android:text="@string/message"
+        android:textColor="@color/design_default_color_on_primary"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/action_button"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="26dp"
+        android:text="@string/send_button_message"
+        android:textSize="26sp" />
+
+</LinearLayout>
